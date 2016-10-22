@@ -1,6 +1,8 @@
 {
-    "author": "j.yn.tran@gmail.com",
-    "dependencies": {},
+    "author": "J. Tran",
+    "dependencies": {
+        "pebble-clay": "^1.0.3"
+    },
     "keywords": [],
     "name": "tojo-clan",
     "pebble": {
@@ -9,7 +11,12 @@
         ],
         "displayName": "Tojo Clan",
         "enableMultiJS": true,
-        "messageKeys": [],
+        "messageKeys": [
+            "BackgroundColour",
+            "CrestColour",
+            "TimeColour",
+            "ItalicizedTime"
+        ],
         "projectType": "native",
         "resources": {
             "media": [
@@ -54,11 +61,13 @@
         "targetPlatforms": [
             "aplite",
             "basalt",
-            "chalk"
+            "chalk",
+            "diorite",
+            "emery"
         ],
         "uuid": "6650c366-11ee-4361-9301-b6d8e6783388",
         "watchapp": {
-            "watchface": false
+            "watchface": true
         }
     },
     "version": "1.0.0"
