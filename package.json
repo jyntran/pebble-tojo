@@ -9,7 +9,15 @@
         "messageKeys": [],
         "projectType": "native",
         "resources": {
-            "media": []
+            "media": [
+                {
+                    "characterRegex": "[0-9:.]",
+                    "file": "fonts/neuton-regular.ttf",
+                    "name": "FONT_NEUTON_REGULAR_48",
+                    "targetPlatforms": null,
+                    "type": "font"
+                }
+            ]
         },
         "sdkVersion": "3",
         "uuid": "6650c366-11ee-4361-9301-b6d8e6783388",
