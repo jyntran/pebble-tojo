@@ -12,6 +12,13 @@
             "media": [
                 {
                     "characterRegex": "[0-9:.]",
+                    "file": "fonts/neuton-cursive.ttf",
+                    "name": "FONT_NEUTON_CURSIVE_48",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[0-9:.]",
                     "file": "fonts/neuton-regular.ttf",
                     "name": "FONT_NEUTON_REGULAR_48",
                     "targetPlatforms": null,
