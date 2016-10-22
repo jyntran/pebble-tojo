@@ -4,29 +4,58 @@
     "keywords": [],
     "name": "tojo-clan",
     "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
         "displayName": "Tojo Clan",
-        "enableMultiJS": false,
+        "enableMultiJS": true,
         "messageKeys": [],
         "projectType": "native",
         "resources": {
             "media": [
                 {
+                    "file": "images/tojo-w-100.png",
+                    "name": "IMAGE_TOJO_WHITE_100",
+                    "storageFormat": "png",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/tojo-b-100.png",
+                    "name": "IMAGE_TOJO_BLACK_100",
+                    "storageFormat": "png",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/tojo-b-25.png",
+                    "menuIcon": true,
+                    "name": "IMAGE_TOJO_BLACK_25",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
                     "characterRegex": "[0-9:.]",
                     "file": "fonts/neuton-cursive.ttf",
-                    "name": "FONT_NEUTON_CURSIVE_48",
+                    "name": "FONT_NEUTON_CURSIVE_40",
                     "targetPlatforms": null,
                     "type": "font"
                 },
                 {
                     "characterRegex": "[0-9:.]",
                     "file": "fonts/neuton-regular.ttf",
-                    "name": "FONT_NEUTON_REGULAR_48",
+                    "name": "FONT_NEUTON_REGULAR_40",
                     "targetPlatforms": null,
                     "type": "font"
                 }
             ]
         },
         "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk"
+        ],
         "uuid": "6650c366-11ee-4361-9301-b6d8e6783388",
         "watchapp": {
             "watchface": false
