@@ -1,5 +1,5 @@
 {
-    "author": "J. Tran",
+    "author": "jyntran",
     "dependencies": {
         "pebble-clay": "^1.0.3"
     },
@@ -13,7 +13,7 @@
         "enableMultiJS": true,
         "messageKeys": [
             "BackgroundColour",
-            "CrestColour",
+            "BlackCrestColour",
             "TimeColour",
             "ItalicizedTime"
         ],
@@ -62,8 +62,7 @@
             "aplite",
             "basalt",
             "chalk",
-            "diorite",
-            "emery"
+            "diorite"
         ],
         "uuid": "6650c366-11ee-4361-9301-b6d8e6783388",
         "watchapp": {

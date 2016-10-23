@@ -27,20 +27,10 @@ module.exports = [
         "label": "Time Colour"
       },
       {
-        "type": "select",
-        "messageKey": "CrestColour",
-        "label": "Crest Colour",
-        "options": [
-          {
-            "label": "White",
-            "value": "0xFFFFFF"
-          },
-          {
-            "label": "Black",
-            "value": "0x000000"
-          }
-        ],
-        "defaultValue": "0xFFFFFF"
+        "type": "toggle",
+        "messageKey": "BlackCrestColour",
+        "label": "Use Black Crest (Default: White)",
+        "defaultValue": false
       }
     ]
   },
